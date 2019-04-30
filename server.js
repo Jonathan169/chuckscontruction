@@ -4,7 +4,7 @@ const logger= require("morgan");
 
 //intialize express
 const app= express();
-const port = process.env.port || 3000;
+const port = process.env.port || 3001;
 
 //middleware
 app.use(express.urlencoded({ extended: true }));
