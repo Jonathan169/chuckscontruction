@@ -7,7 +7,6 @@ var transporter = nodemailer.createTransport({
         user:'jon.hernandez169@gmail.com',
         pass:process.env.password
     }
-    
 });
 
 let mailOptions={
@@ -16,11 +15,11 @@ let mailOptions={
     subject:"testing",
     text:'holla'
 }
-transporter.sendMail(mailOptions,function(err,data){
-    if(err){
-        console.log(err)
-    }
-    else{
-        console.log("it worked!")
-    }
-})
+// transporter.sendMail(mailOptions,function(err,data){
+//     if(err){
+//         console.log(err)
+//     }
+//     else{
+//         console.log("it worked!")
+//     }
+// })
