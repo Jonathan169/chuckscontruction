@@ -1,36 +1,26 @@
-const express= require("express");
-const mongoose= require("mongoose");
-const logger= require("morgan");
+const path = require('path');
+const express = require("express");
 
-//intialize express
-const app= express();
-const port = process.env.port || 3001;
+const app = express();
+const port = process.env.PORT || 3001;
 
-//middleware
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+app.use(express.urlencoded({extended:true}));
+app.use(express.json())
 
+app.use(express.static("client/build"))
 
-//serve static files
-if(process.env.NODE_ENV==="production"){
-    app.use(express.static("client/build"))
-}
-//Mongodb connection
-app.use(logger("dev"));
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/chucks", {useNewUrlParser:true});
-mongoose.connection.once("open",function(){
-    console.log("connnection has been made!")
-}).on("error",function(err){
-    console.log("connection error: \n",err)
+// routes 
+var publicDir = require('path').join(__dirname, '/assets');
+app.use(express.static(publicDir)); 
+
+app.use(require("./routes"))
+app.use(require("./routes/nodemailer"))
+
+app.get("*",function(req,res){
+    res.sendFile(path.join(__dirname,"/client/build/index.html"))
 })
-
-//routes 
-const routes=require("./routes");
-app.use(routes)
-
 //listener
 app.listen(port,function(){
     console.log("listening on http://localhost:"+port)
 })
-
 
