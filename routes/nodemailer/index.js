@@ -49,8 +49,8 @@ router.post("/formsubmit", function (req, res) {
     sendMail(mailOptions).then(results => {
         console.log('email sent...', results) 
         mailOptions = {
-            from: 'oscarchavez@oscarsllc.com',
-            to: "oscarsllc@oscarsllc.com",
+            from: 'info@chucksconstructionllc.com',
+            to: "info@chucksconstructionllc.com",
             subject: 'testing',
             text:"trying to see if this will work",
             html:`<h1>testing the email server please ignore</h1>

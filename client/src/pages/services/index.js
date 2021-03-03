@@ -18,7 +18,8 @@ class services extends React.Component {
                     <hr />
                     <div id="services" className=" py-4">
                         <ServiceCard title="Roofing" imageName="roof-hero.jpg"
-                            paragraph="" id="roofing"
+                            paragraph="The siding on your home is the first thing people look at ,it's a personal preference what skin you want to give it whether it's vinyl or steel drawing on years of experience our crew are here to help and provide you with excellent service .
+                            Replacing a couple of pieces due to wear and tear or fully restoring your siding we are available all year round as long as it's not snowing we are working!" id="roofing"
                             />
                         <ServiceCard title="siding" imageName="siding-house.jpg" id="siding"
                             paragraph="The siding on your home is the first thing people look at ,it's a personal preference what skin you want to give it whether it's vinyl or steel drawing on years of experience our crew are here to help and provide you with excellent service .

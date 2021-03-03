@@ -68,7 +68,7 @@ class Navbar extends React.Component{
                                   <a className="nav-link white-font mt-2" href="/otherinqueries">Other Inqueries</a>
                             </li> */}
                             <div className="nav2Schedule">
-                                <a className='linkstyle' href='/schedule'><p>Schedule Today</p></a>
+                                <a className='linkstyle' href='/contact'><p>Schedule Today</p></a>
                             </div>                          
                         </ul>
                     </nav>

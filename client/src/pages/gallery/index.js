@@ -44,20 +44,10 @@ class OurWork extends Component{
                 console.log(this.state)
             })
     }
-    dropdown = e =>{
-        if(this.state.show){
-            document.getElementById("dropdownfilterButton").classList.remove("d-block")
-            this.setState({show:false})
-        }
-        else{
-            document.getElementById("dropdownfilterButton").classList.add("d-block")
-            this.setState({show:true})
-        }
-    }
     handleClick = e => {
         e.preventDefault()
-        console.log(e.target.dataset)
-        // this.dropdown()
+        console.log(e.target.dataset.value)
+        this.setState({images:e.target.dataset.value})
         this.grabImagesFromServer(e.target.dataset.value, parseInt(e.target.dataset.load))
     }
     
@@ -84,12 +74,9 @@ class OurWork extends Component{
 
                               <Dropdown.Menu>
                               <Dropdown.Item onClick={this.handleClick} data-value="All" >All</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Remodeling" >Remodeling</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Tile">Tile</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Granite">Granite</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Kitchen">Kitchen</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Painting" >Painting</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Bathroom">Bathrooms</Dropdown.Item>
+                                <Dropdown.Item onClick={this.handleClick} data-value="Roofing" >Roofing</Dropdown.Item>
+                                <Dropdown.Item onClick={this.handleClick} data-value="Siding">Siding</Dropdown.Item>
+                                <Dropdown.Item onClick={this.handleClick} data-value="Gutters">Gutters</Dropdown.Item>
                               </Dropdown.Menu>
                             </Dropdown>
 

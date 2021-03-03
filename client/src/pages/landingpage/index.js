@@ -36,8 +36,8 @@ class landingPage extends Component{
                                     <img src={process.env.PUBLIC_URL+'/images/hail-damage.jpg'} className='images img-1' alt="hail"/>
                                 </div>
                                 <div className="col-md-6">
-                                <p className='info yell'>Storm Restoration</p>
-                                    <p className='subInfo yell'>Often times spoting hail damage is very difficult for the untrained eye, they
+                                <p className='info white-font'>Storm Restoration</p>
+                                    <p className='subInfo white-font'>Often times spoting hail damage is very difficult for the untrained eye, they
                                     dont leave there mark sometimes and can lead to thousands of dollars in reapirs done the road</p>
                                 </div>
                             </div>
