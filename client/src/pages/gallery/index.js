@@ -74,9 +74,9 @@ class OurWork extends Component{
 
                               <Dropdown.Menu>
                               <Dropdown.Item onClick={this.handleClick} data-value="All" >All</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Roofing" >Roofing</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Siding">Siding</Dropdown.Item>
-                                <Dropdown.Item onClick={this.handleClick} data-value="Gutters">Gutters</Dropdown.Item>
+                                <Dropdown.Item onClick={this.handleClick} data-value="roofing" >Roofing</Dropdown.Item>
+                                <Dropdown.Item onClick={this.handleClick} data-value="siding">Siding</Dropdown.Item>
+                                <Dropdown.Item onClick={this.handleClick} data-value="gutters">Gutters</Dropdown.Item>
                               </Dropdown.Menu>
                             </Dropdown>
 
