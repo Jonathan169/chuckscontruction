@@ -37,8 +37,7 @@ class landingPage extends Component{
                                 </div>
                                 <div className="col-md-6">
                                 <p className='info white-font'>Storm Restoration</p>
-                                    <p className='subInfo white-font'>Often times spoting hail damage is very difficult for the untrained eye, they
-                                    dont leave there mark sometimes and can lead to thousands of dollars in reapirs done the road</p>
+                                    <p className='subInfo white-font'>Spotting hail damage is very difficult for the untrained eye and can lead to thousands of dollars in repairs down the road. That's where we step in helping through the process of restoring your home.</p>
                                 </div>
                             </div>
                         </div>
@@ -48,17 +47,14 @@ class landingPage extends Component{
                             <div className="container">
                                 <h2 className="text-center display-4">Its as easy as 1, 2, 3!</h2>
 
-                                <Cards title="1) Schedule an inspection"
-                                    paragraph="Often times spoting hail damage is very difficult for the untrained eye, they
-                                    dont leave there mark sometimes and can lead to thousands of dollars in reapirs done the road"
+                                <Cards title="1) Schedule an inspection/ File a claim"
+                                    paragraph="Once you scheduled your FREE roof inspection our storm restoration specialist will perform a thorough inspection to your property. Once the inspection is over, we’ll determine if you qualify for a roof replacement. Then we’ll walk you throughout the whole insurance process."
                                     imageName="roof-inspection.jpg" />
-                                <Cards title="2) File a claim"
-                                    paragraph="Often times spoting hail damage is very difficult for the untrained eye, they
-                                    dont leave there mark sometimes and can lead to thousands of dollars in reapirs done the road"
+                                <Cards title="2) Schedule adjustment"
+                                    paragraph="At this point your insurance will meet for an adjustment with our representatives and if you qualified for a roof replacement our local contractors will meet with you bringing along a selection of colors and top-quality products for your home."
                                     imageName="client-contractor.jpg" />
-                                <Cards title="3) Schedule adjustment"
-                                    paragraph="Often times spoting hail damage is very difficult for the untrained eye, they
-                                    dont leave there mark sometimes and can lead to thousands of dollars in reapirs done the road"
+                                <Cards title="3) Project Day"
+                                    paragraph="Your local contractor will meet with you bringing along a selection of colors and top-quality products for your home. Once we complete the project your city inspector will stop by making sure we followed all codes and requirements and your insurance will be notified upon approval."
                                     imageName="adjustment.jpg" />
 
                             </div>

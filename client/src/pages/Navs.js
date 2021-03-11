@@ -58,9 +58,9 @@ class Navbar extends React.Component{
                             <li className="nav-item">
                                 <a className="nav-link white-font mt-2" href="/about">About Us</a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                   <a className="nav-link white-font mt-2" href="/gallery">Gallery</a>
-                            </li>                            
+                            </li>                             */}
                             <li className="nav-item">
                                   <a className="nav-link white-font mt-2" href="/services">Services</a>
                             </li>
