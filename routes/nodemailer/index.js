@@ -41,10 +41,18 @@ router.post("/formsubmit", function (req, res) {
     let mailOptions = {
         from: 'info@chucksconstructionllc.com',
         to: req.body.email ,
-        subject: 'testing',
+        subject: 'Thank you for reaching out!',
         text:"Thank you for reaching out!",
-        html:`<h1>testing the email server please ignore</h1>
-            <h3>Thank you for reaching out! someone will reach out and answer any questions you may have</h3>`,
+        html:`<div style="display:flex; border-bottom: 2px solid black">
+            
+        </div>
+        <h1>Hello ${req.body.name}</h1>
+            <h3>Thank you for Reaching out to us. A storm restoration specialist will reach out shortly to confirm the details.</h3>`,
+        // attachments: [{
+        //     filename: 'chucks-logo.svg',
+        //     path: './',
+        //     cid: 'chuckslogo' //same cid value as in the html img src
+        // }]
     }
     sendMail(mailOptions).then(results => {
         console.log('email sent...', results) 

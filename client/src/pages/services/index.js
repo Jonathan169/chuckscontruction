@@ -47,19 +47,19 @@ class services extends React.Component {
                                 <p className="h4 font-weight-normal">Here at Chucks Construction, we prioritize that the foundation of your roof is secure! Whether its plywood or space boards, if any repairs are needed or codes need to be brought up to date our crews will gladly take care of you.</p>
                             </li>
                             <li className="display-5">
-                                <p className="display-5">drip edge installment is required by code in most cities!!</p>
+                                <p className="display-5">Drip edge installment is required by code in most cities!!</p>
                                 <p className="h4 font-weight-normal">A drip edge is very useful; its purpose is to prevent any water from seeping under the edge of the roof deck. Without drip edge the edges will rot all the way into the frame studs and sheathing. Over time this will prevent many repairs, to avoid any issues it's recommended to install it beforehand.</p>
                             </li>
                             <li className="display-5">
-                                <p className="display-5">starter</p>
+                                <p className="display-5">Starter</p>
                                 <p className="h4 font-weight-normal">A starter strip is a very important factor on your roof, the purpose of it is to prevent any water to seep underneath the shingles, they also greatly improve the roof's wind resistance by sealing the finished shingles to the roof at eaves and rakes therefore its prompt to make sure your local contractor installs them along all the roof edges.</p>
                             </li>
                             <li className="display-5">
-                                <p className="display-5">Ice and water shield / ice dam protection </p>
+                                <p className="display-5">Ice and water shield / Ice dam protection </p>
                                 <p className="h4 font-weight-normal">Ice and water shield is a self-adhering waterproofing underlayment used in roofing to prevent damage caused by ice dams and wind driven rain. Every Minnesota home should acquire this in every roof eaves and rakes, valleys and all flashings and chimneys.</p>
                             </li>
                             <li className="display-5">
-                                <p className="display-5">Underlayment / felt paper </p>
+                                <p className="display-5">Underlayment / Felt paper </p>
                                 <p className="h4 font-weight-normal">The felt paper helps keep water away from the wood so it doesn't leak into your attic. Professional roofers know that by adding a layer of felt paper it does not only serve aesthetic purposes but extends the life of your roof.</p>
                             </li>
                             <li className="display-5">
@@ -72,7 +72,7 @@ class services extends React.Component {
                                 </ol>
                             </li>
                             <li className="display-5">Placing shingles on the roof </li>
-                            <li className="display-5">hips and ridge cap</li>
+                            <li className="display-5">Hips and Ridge cap</li>
                             <li className="display-5">Clean up!</li>
                         </ol>
                     </div>
