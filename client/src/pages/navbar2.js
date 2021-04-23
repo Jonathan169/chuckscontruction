@@ -16,12 +16,6 @@ class navBar extends React.Component {
                             <li className="list-group-item">
                                 <a className="nav-link white-font" href="/about">About Us</a>
                             </li>
-                            {/* <li className="list-group-item">
-                                <a className="nav-link white-font" href="/gallery">Gallery</a>
-                            </li> */}
-                            {/* <li className="nav-group-item">
-                                  <a className="nav-link white-font" href="/otherinqueries">Other Inqueries</a>
-                            </li> */}
                             <li className="list-group-item">
                                 <a className="nav-link white-font" href="/services">Services</a>
                             </li>

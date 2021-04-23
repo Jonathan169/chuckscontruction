@@ -7,7 +7,7 @@ import Contact from './pages/contact';
 import Gallery from './pages/gallery';
 import Home from './pages/landingpage/index';
 import Services from './pages/services';
-import OtherInqueries from './pages/other'
+// import OtherInqueries from './pages/other'
 function App(){
   return (
     <Router>
@@ -18,7 +18,6 @@ function App(){
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/gallery" component={Gallery }/>
         <Route exact path="/services"component={Services}/>
-        {/* <Route exact path="/otherinqueries"component={OtherInqueries}/> */}
       </Switch>
     </Router>
   )

@@ -1,6 +1,7 @@
 const path = require('path');
 const router = require('express').Router();
 const fs = require('fs');
+// router.use(require("./nodemailer"))
 
 router.post("/gallery", function (req, res) {
     console.log(req.body)
@@ -26,5 +27,8 @@ router.post("/gallery", function (req, res) {
         res.json(imageList)
     })
 })
-
+router.use(function(req,res){
+    console.log("here")
+    res.sendFile(path.join(__dirname,"../client/build/index.html"))
+})
 module.exports= router;

@@ -37,7 +37,7 @@ class Navbar extends React.Component{
                     <nav className="center-flexbox">
                         <div className="item1">
                             <a href="/"><img className="logo" alt="logo"
-                                src={process.env.PUBLIC_URL + '/chucks-logo.svg'} /></a>
+                                src={process.env.PUBLIC_URL + '/images/chucks-logo.svg'} /></a>
                         </div>
                         <div className="phone">
                             <p style={{ fontSize: "1.5rem" }} className="lead mb-0 text-center">
