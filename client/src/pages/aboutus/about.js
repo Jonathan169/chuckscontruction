@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Form from '../inspectionForm';
 import Carousel from '../carousel';
 import Navs from "../Navs";
-import Modal from 'react-bootstrap/modal'
+import Modal from 'react-bootstrap/Modal'
 class About extends Component{
     state={
         show:true,
