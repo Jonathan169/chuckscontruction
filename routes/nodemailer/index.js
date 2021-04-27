@@ -1,7 +1,7 @@
 var router = require('express').Router();
 const nodeMailer = require('nodemailer');
 const { google } =  require('googleapis')
-const validator = require("email-validator")
+// const validator = require("email-validator")
 require('dotenv').config()
 
 const CLIENT_ID = '776606704666-628ai6p018acokkigvq39d6eecd5f6gu.apps.googleusercontent.com'

@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 80;
 
-app.use(express.urlencoded({extended:false}));
+app.use(express.urlencoded({extended:true}));
 app.use(express.json())
 
 app.use(express.static("client/build"))
