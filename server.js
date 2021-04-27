@@ -2,7 +2,7 @@ const path = require('path');
 const express = require("express");
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 app.use(express.urlencoded({extended:false}));
 app.use(express.json())
@@ -13,7 +13,7 @@ app.use(express.static("client/build"))
 app.use(express.static(path.join(__dirname, '/assets'))); 
 
 app.use(require("./routes"))
-app.use(require("./routes/nodemailer"))
+// app.use(require("./routes/nodemailer"))
 
 // app.use((req, res, next) => {
 //     res.sendFile(path.join(__dirname, "client/build/index.html"));
