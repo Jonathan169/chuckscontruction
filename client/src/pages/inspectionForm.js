@@ -72,18 +72,3 @@ class inspectionForm extends Component{
 }
 
 export default inspectionForm;
-
-                            {/* <div className="form-group">
-                        <label htmlFor="exampleFormControlInput1" style={{fontWeight:'bold'}}>Pick date</label>
-                        <div className="form-control" style={{border:'0px'}}>
-                            <DatePicker
-                            showTimeSelect
-                            timeFormat="HH:mm"
-                            timeIntervals={15}
-                            dateFormat="MMMM d, yyyy h:mm aa"
-                            timeCaption="time"
-                            selected={this.state.dateChosen.startDate}
-                            onChange={(e)=>this.handleDatepicker(e, "startDate")}
-                            minDate={new Date()}
-                        /></div>
-                    </div> */}

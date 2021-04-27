@@ -2,9 +2,7 @@ import React from 'react';
 import Nav from '../Navs';
 import Carousel from '../carousel';
 import ServiceCard from './service-cards'
-const style = {
-    backgroundImage: "url(" + process.env.PUBLIC_URL + "assets/images/home-kitchen.jpg)"
-}
+
 class services extends React.Component {
     state = {}
 
